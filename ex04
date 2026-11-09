@@ -1,0 +1,17 @@
+################################################################
+# Descrição: Identifica o turno de estudo e mostra uma saudação.#
+# Parâmetros de entrada: Uma letra indicando o turno.          #
+# Valores de saída: Saudação correspondente ou valor inválido. #
+# Autor: Miguel dos Santos Ferreira                            #
+################################################################
+
+turno = input("Em que turno você estuda? (M/V/N): ").strip().upper()
+
+if turno == "M":
+    print("Bom Dia!")
+elif turno == "V":
+    print("Boa Tarde!")
+elif turno == "N":
+    print("Boa Noite!")
+else:
+    print("Valor Inválido!")
