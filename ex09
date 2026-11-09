@@ -1,0 +1,13 @@
+################################################################
+# Descrição: Soma os números pares de 1 até 500.               #
+# Parâmetros de entrada: Nenhum.                               #
+# Valores de saída: Somatório dos números pares da faixa.      #
+# Autor: Miguel dos Santos Ferreira                            #
+################################################################
+
+soma = 0
+
+for numero in range(2, 501, 2):
+    soma += numero
+
+print("A soma dos números pares é:", soma)
