@@ -1,0 +1,15 @@
+################################################################
+# Descrição: Identifica a opção de sexo informada pelo usuário.#
+# Parâmetros de entrada: Uma letra (F ou M).                   #
+# Valores de saída: Feminino, Masculino ou Sexo Inválido.     #
+# Autor: Miguel dos Santos Ferreira                            #
+################################################################
+
+letra = input("Digite F ou M: ").strip().upper()
+
+if letra == "F":
+    print("F - Feminino")
+elif letra == "M":
+    print("M - Masculino")
+else:
+    print("Sexo Inválido")
